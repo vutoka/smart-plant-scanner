@@ -69,6 +69,9 @@ GR – Germination
 GP – Growth
 PH – Pre-harvest
 
+Dataset is available here:
+https://drive.google.com/drive/folders/1q_EWHuwKacSHNcrIof5lPpwcbzGtp47S?usp=sharing
+
 The trained model is exported to TensorFlow Lite and runs locally on the Raspberry Pi.
 
 Hardware Components
