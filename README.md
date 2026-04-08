@@ -50,7 +50,21 @@ The system uses a MobileNetV2 convolutional neural network:
 
 Pretrained on ImageNet
 Fine-tuned on a custom dataset of 300 images
-Three classes:
+The dataset was split using a 70/30 ratio:
+70% of images were used for training
+30% of images were used for validation
+
+dataset/
+├── train/
+│   ├── GR/
+│   ├── GP/
+│   └── PH/
+├── validation/
+│   ├── GR/
+│   ├── GP/
+│   └── PH/
+
+***
 GR – Germination
 GP – Growth
 PH – Pre-harvest
